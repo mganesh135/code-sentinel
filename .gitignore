@@ -1,0 +1,14 @@
+# Go
+*.exe
+*.test
+*.out
+vendor/
+
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# OS
+.DS_Store
