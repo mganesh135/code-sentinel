@@ -1,9 +1,8 @@
-package cmd
+package commands
 
 import (
 	"fmt"
 
-	"github.com/mganesh135/code-sentinal/services/cli/cmd/commands"
 	"github.com/spf13/cobra"
 )
 
@@ -29,7 +28,7 @@ func Execute() {
 }
 
 func addCommands() {
-	rootCmd.AddCommand(commands.Watch())
+	rootCmd.AddCommand(Watch())
 }
 
 func init() {
